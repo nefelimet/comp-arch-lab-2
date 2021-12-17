@@ -39,7 +39,9 @@ Authors: Δήμου Μαρία, Μεταλλίδου Νεφέλη
 | system.cpu.cpi | 1.679650 | 1.187917 | 8.032258 | 1.299095 |  10.270554 |
 | system.l2.overall_miss_rate::total | 0.282163 | 0.077760 | 0.926230 | 0.055046 | 0.999972 |
 | system.cpu.icache.overall_miss_rate::total | 0.000077 | 0.000221 | 0.094160 | 0.023612 |  0.000020 |
-| system.cpu.dcache.overall_miss_rate::total | 0.014798 | 0.001637 | 0.063140 |  0.002108 | 0.121831
+| system.cpu.dcache.overall_miss_rate::total | 0.014798 | 0.001637 | 0.063140 |  0.002108 | 0.121831 |
+
+![Step 2 Question 2 Graph!](/step2q2_graph.jpg "Step 2 Question 2 Graph")
 
 Παρατηρούμε ότι στα benchmark  όπου η τιμή του CPI είναι μεγάλη, μεγάλη τιμή παρουσιάζουν και τα _l2.overall_miss_rate::total_  τους.  Επίσης βλέπουμε ότι το benchmark **_specsjeng_** έχει το μεγαλύτερο CPI και το μεγαλύτερο miss rate σε όλες τις caches. Αυτό σημαίνει ότι τρέχει κάποια προγράμματα της χειρότερης περίπτωσης.
 
